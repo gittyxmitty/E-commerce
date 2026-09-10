@@ -1,0 +1,69 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Clothing | Product</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&family=Poppins:wght@600;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="css/style.css" />
+  </head>
+  <body>
+    <header class="navbar">
+      <div class="logo">Clothing<span>.</span></div>
+      <nav class="nav-links">
+        <a href="index.html">Home</a>
+        <a href="shop.html">Shop</a>
+        <a href="cart.html">🛒 Cart</a>
+        <a href="login.html">Login</a>
+      </nav>
+    </header>
+
+    <div class="product-detail">
+      <div class="product-images">
+        <img
+          class="main-img"
+          src="https://loremflickr.com/500/500/hoodie"
+          alt="Oversized Hoodie"
+        />
+        <div class="thumb-row">
+          <img src="https://loremflickr.com/100/100/hoodie" alt="thumb 1" />
+          <img
+            src="https://loremflickr.com/100/100/hoodie,model"
+            alt="thumb 2"
+          />
+          <img
+            src="https://loremflickr.com/100/100/hoodie,street"
+            alt="thumb 3"
+          />
+        </div>
+      </div>
+
+      <div class="product-detail-info">
+        <span class="product-tag">New</span>
+        <h1>Oversized Hoodie</h1>
+        <span class="price">$45</span>
+        <p>
+          Soft cotton-blend hoodie with a relaxed oversized fit. Perfect for
+          everyday streetwear layering. Machine washable, true to size.
+        </p>
+
+        <div class="size-selector">
+          <div class="size-box">S</div>
+          <div class="size-box active">M</div>
+          <div class="size-box">L</div>
+          <div class="size-box">XL</div>
+        </div>
+
+        <button class="btn" onclick="addToCart()">Add to Cart</button>
+      </div>
+    </div>
+
+    <footer>&copy; 2026 Clothing. All rights reserved.</footer>
+
+    <script src="js/main.js"></script>
+  </body>
+</html>

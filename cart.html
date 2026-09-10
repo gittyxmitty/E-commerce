@@ -1,0 +1,77 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Clothing | Cart</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&family=Poppins:wght@600;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="css/style.css" />
+  </head>
+  <body>
+    <header class="navbar">
+      <div class="logo">Clothing<span>.</span></div>
+      <nav class="nav-links">
+        <a href="index.html">Home</a>
+        <a href="shop.html">Shop</a>
+        <a href="cart.html">🛒 Cart</a>
+        <a href="login.html">Login</a>
+      </nav>
+    </header>
+
+    <div class="cart-page">
+      <h1>Your Cart</h1>
+      <br />
+
+      <div class="cart-item">
+        <div class="cart-item-left">
+          <img src="https://loremflickr.com/100/100/hoodie" alt="Hoodie" />
+          <div class="cart-item-details">
+            <h4>Oversized Hoodie</h4>
+            <span class="size">Size: M</span>
+          </div>
+        </div>
+        <div class="qty-control">
+          <button>-</button>
+          <span>1</span>
+          <button>+</button>
+        </div>
+        <span class="price">$45</span>
+      </div>
+
+      <div class="cart-item">
+        <div class="cart-item-left">
+          <img src="https://loremflickr.com/100/100/tshirt" alt="Tee" />
+          <div class="cart-item-details">
+            <h4>Graphic Tee</h4>
+            <span class="size">Size: L</span>
+          </div>
+        </div>
+        <div class="qty-control">
+          <button>-</button>
+          <span>1</span>
+          <button>+</button>
+        </div>
+        <span class="price">$25</span>
+      </div>
+
+      <div class="cart-summary">
+        <div class="cart-summary-row">
+          <span>Subtotal</span><span>$70</span>
+        </div>
+        <div class="cart-summary-row">
+          <span>Shipping</span><span>Free</span>
+        </div>
+        <div class="cart-total"><span>Total</span><span>$70</span></div>
+      </div>
+
+      <br />
+      <button class="btn">Checkout</button>
+    </div>
+
+    <footer>&copy; 2026 Clothing. All rights reserved.</footer>
+  </body>
+</html>
